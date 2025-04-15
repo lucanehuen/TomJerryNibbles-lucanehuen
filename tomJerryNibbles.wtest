@@ -14,4 +14,9 @@ describe "Grupo de test" {
     assert.notThat(false)
   }
 
-}
+  test "Velocidad maxima de tom al inicio es 10 y su energia es 50" {
+    assert.equals(tom.velocidadMaxima(),10)
+    assert.equals(tom.energia(),50)
+  }
+
+  test ""
